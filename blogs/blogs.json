@@ -1,0 +1,16 @@
+{
+  "aid": "invision",
+  "name": "InVision",
+  "blogs": [
+    {
+      "name": "InVision Engineering Blog",
+      "url": "https://engineering.invisionapp.com",
+      "type": "Blog",
+      "rss": null,
+      "last_fetched": null,
+      "post_count": 0,
+      "note": "InVision shut down January 1, 2025. Blog content may be archived."
+    }
+  ],
+  "last_updated": "2026-06-13"
+}

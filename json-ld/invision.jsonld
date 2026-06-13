@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "aid": "https://apis.io/aid#",
+    "apis": "https://apis.io/apis#"
+  },
+  "@type": "Organization",
+  "@id": "https://www.invisionapp.com",
+  "name": "InVision",
+  "description": "InVision was a digital product design platform used by teams to build the world's best customer experiences. It provided REST APIs for managing prototypes, design documents, boards, comments, workflows, and design system components including design tokens and icons via the Design System Manager (DSM). InVision shut down all services on January 1, 2025, with its domain now redirecting to Miro.",
+  "url": "https://www.invisionapp.com",
+  "sameAs": [
+    "https://github.com/InVisionApp",
+    "https://www.linkedin.com/company/invisionapp",
+    "https://x.com/InVisionApp",
+    "https://engineering.invisionapp.com"
+  ],
+  "foundingDate": "2011",
+  "dissolutionDate": "2025-01-01",
+  "keywords": [
+    "Design",
+    "Prototyping",
+    "Design Systems",
+    "Collaboration",
+    "Digital Product Design",
+    "Deprecated"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "InVision API Products",
+    "itemListElement": [
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "DeveloperApplication",
+        "name": "InVision DSM Design Tokens API",
+        "description": "The InVision Design System Manager (DSM) API allowed teams to programmatically retrieve design tokens (colors, text styles, fonts, spacing) and icons from their DSM design system. API keys were scoped per design system and used as query parameters. The platform was shut down on January 1, 2025.",
+        "url": "https://support.invisionapp.com/docs/using-the-design-tokens-and-icons-api",
+        "featureList": [
+          "Design Tokens retrieval",
+          "Icons retrieval",
+          "Color palette access",
+          "Text styles access",
+          "Font information",
+          "Spacing tokens"
+        ],
+        "identifier": "invision:invision-dsm-api"
+      }
+    ]
+  }
+}
