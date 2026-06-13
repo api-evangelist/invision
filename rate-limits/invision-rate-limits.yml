@@ -1,0 +1,56 @@
+name: InVision API Rate Limits
+description: >-
+  InVision's API rate limits applied to the Design System Manager (DSM) Design
+  Tokens API and related developer APIs. InVision shut down all services on
+  January 1, 2025. Rate limit specifics were not publicly documented in detail;
+  limits were enforced at the platform level based on subscription plan tier.
+url: https://support.invisionapp.com/docs/dsm-developer-tools
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - name: DSM Design Tokens API
+    description: >-
+      Rate limits for the Design System Manager tokens and icons API endpoint.
+      Requests used an API key for authentication passed as a query parameter.
+      Specific numeric rate limits were not publicly disclosed.
+    endpoint: https://projects.invisionapp.com/dsm-export/{team}/{project}/style-data.json
+    authentication: API Key (query parameter)
+    limits:
+      - type: requests
+        window: not publicly documented
+        scope: per API key
+        notes: >-
+          InVision did not publicly document specific numeric rate limits for
+          the DSM API. Limits were enforced based on plan tier. Enterprise
+          customers could contact support for custom limit adjustments.
+    headers:
+      rateLimitRemaining: not implemented
+      rateLimitReset: not implemented
+      retryAfter: not documented
+    errorCodes:
+      - code: 429
+        description: Too Many Requests - rate limit exceeded
+
+  - name: General Platform API
+    description: >-
+      Rate limits applied to all InVision platform API calls including
+      prototypes, boards, comments, and user management endpoints. Specific
+      per-minute or per-hour limits were enforced server-side without public
+      documentation.
+    endpoint: https://projects.invisionapp.com/api
+    authentication: Session token or API key
+    limits:
+      - type: requests
+        window: not publicly documented
+        scope: per account
+        notes: >-
+          InVision enforced rate limits at the application level for all REST
+          API calls. Pro and Enterprise plans had higher thresholds than Free
+          plan accounts. Exact limits were not published in the developer
+          documentation.
+
+notes: >-
+  InVision permanently ceased operations on January 1, 2025. Rate limit
+  information is provided for historical reference only. The platform no longer
+  accepts API requests. Developers should migrate to alternative platforms
+  such as Figma, which provides publicly documented API rate limits.

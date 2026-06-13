@@ -1,0 +1,86 @@
+name: InVision Plans and Pricing
+description: >-
+  InVision offered tiered subscription plans for teams using its digital product
+  design platform. The platform shut down on January 1, 2025. Historical pricing
+  is documented here for reference. The Freehand product was acquired by Miro in
+  2023.
+url: https://support.invisionapp.com/docs/plans-1
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Free
+    description: >-
+      The Free plan was available for individual designers and small teams
+      exploring the platform. It included basic prototyping features and limited
+      prototype storage.
+    price: 0.00
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Basic prototyping
+      - Limited prototype storage
+      - Commenting and feedback
+      - InVision Inspect (developer handoff)
+      - Mobile device preview
+    limitations:
+      - Limited number of prototypes
+      - No team management features
+      - Basic DSM access
+
+  - name: Pro
+    description: >-
+      The Pro plan was designed for professional design teams requiring full
+      collaboration features, unlimited prototypes, and advanced developer
+      handoff capabilities.
+    price: 7.95
+    currency: USD
+    billingCycle: monthly
+    annualPrice: 4.00
+    annualCurrency: USD
+    features:
+      - Unlimited prototypes
+      - Team collaboration
+      - Advanced InVision Inspect (developer handoff)
+      - Design System Manager (DSM) access
+      - Design tokens API
+      - Icons API
+      - Workflow and user testing
+      - Version history
+      - Custom domains for prototypes
+      - Priority support
+    limitations:
+      - Limited DSM design systems
+      - Standard API rate limits apply
+
+  - name: Enterprise
+    description: >-
+      The Enterprise plan provided organizations with advanced security,
+      compliance, and administrative controls alongside full platform access.
+      Pricing was negotiated annually on a per-seat basis.
+    price: null
+    currency: USD
+    billingCycle: annual
+    estimatedAnnualPerSeat: 420.00
+    features:
+      - Everything in Pro
+      - SSO (Single Sign-On)
+      - Advanced user management
+      - Audit logs
+      - Custom contract terms
+      - SLA guarantees
+      - Dedicated customer success manager
+      - Advanced DSM features
+      - Full API access
+      - Webhook support
+      - Integration with third-party tools
+      - SAML authentication
+    limitations:
+      - Custom negotiated limits
+      - Contact sales for API rate limit adjustments
+
+notes: >-
+  InVision permanently ceased operations on January 1, 2025. All user data and
+  projects were deleted. The invisionapp.com domain redirects to Miro. The
+  Freehand whiteboard product was acquired by Miro in 2023 prior to the full
+  shutdown. Historical median contract value was approximately $600 per year
+  based on verified purchases.

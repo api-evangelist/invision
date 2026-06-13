@@ -1,0 +1,102 @@
+name: InVision FinOps
+description: >-
+  Financial operations guidance for teams that were using InVision's digital
+  product design platform. InVision shut down all services on January 1, 2025.
+  This document provides historical cost context and migration considerations for
+  organizations transitioning from InVision to alternative platforms.
+url: https://support.invisionapp.com/docs/plans-1
+created: '2026-06-13'
+modified: '2026-06-13'
+status: deprecated
+shutdownDate: '2025-01-01'
+costFactors:
+  - name: Subscription Cost
+    description: >-
+      Primary cost driver was the per-seat subscription fee. Free plan allowed
+      limited prototypes. Pro plan was billed monthly or annually per user.
+      Enterprise contracts were negotiated annually.
+    tiers:
+      - plan: Free
+        costPerUser: 0.00
+        billingCycle: monthly
+      - plan: Pro
+        costPerUser: 7.95
+        billingCycle: monthly
+        annualEquivalent: 4.00
+      - plan: Enterprise
+        costPerUser: 35.00
+        billingCycle: monthly
+        notes: Estimated based on reported $420/seat/year median contracts
+
+  - name: API Usage
+    description: >-
+      API access was included with all subscription plans. There were no
+      additional per-call charges for the DSM Design Tokens API or other
+      platform APIs. Cost was flat based on subscription tier.
+    additionalCost: 0.00
+    notes: API access was bundled with subscription plans, not metered separately
+
+  - name: Storage
+    description: >-
+      Prototype and asset storage was included in subscription plans. Free plan
+      had limited storage. Pro and Enterprise plans included expanded storage.
+    additionalCost: 0.00
+    notes: Storage was bundled with plan tiers, no overage charges documented publicly
+
+  - name: Integrations
+    description: >-
+      Third-party integrations (Jira, Slack, GitHub, Storybook, Zapier) were
+      available at no additional cost as part of Pro and Enterprise plans.
+    additionalCost: 0.00
+
+optimization:
+  - recommendation: Plan right-sizing
+    description: >-
+      Teams should audit active users and prototype usage against their
+      subscription tier to avoid paying for unused seats.
+    applicablePlans:
+      - Pro
+      - Enterprise
+
+  - recommendation: Annual billing
+    description: >-
+      Opting for annual billing on the Pro plan reduced per-user cost from
+      $7.95/month to approximately $4.00/month — a savings of roughly 50%.
+    savingsEstimate: 50%
+    applicablePlans:
+      - Pro
+
+  - recommendation: DSM token automation
+    description: >-
+      Using the DSM Design Tokens API to automate token consumption in CI/CD
+      pipelines eliminated manual design handoff overhead, reducing developer
+      time costs associated with manual asset extraction.
+    costType: operational efficiency
+
+migration:
+  note: >-
+    InVision shut down permanently on January 1, 2025. All organizations
+    should have migrated to alternative platforms. Primary alternatives include:
+  alternatives:
+    - name: Figma
+      url: https://www.figma.com
+      notes: >-
+        Industry standard replacement for prototyping and design collaboration.
+        Provides a REST API with public documentation and rate limits.
+    - name: Miro
+      url: https://miro.com
+      notes: >-
+        Acquired InVision's Freehand whiteboard product in 2023. Provides REST
+        API with documented rate limits and pricing.
+    - name: Marvel
+      url: https://marvelapp.com
+      notes: Prototyping alternative with API access.
+    - name: Framer
+      url: https://www.framer.com
+      notes: Interactive prototyping with component-driven workflows.
+
+notes: >-
+  Historical median annual contract value for InVision was approximately $600
+  per year based on 15 verified purchases across all plan tiers. Enterprise
+  contracts typically ranged from $420-$450 per seat annually. All InVision
+  costs are now zero as the service no longer operates.
