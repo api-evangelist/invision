@@ -7,7 +7,7 @@ description: >-
   components including design tokens and icons via the Design System Manager
   (DSM). InVision shut down all services on January 1, 2025, with its domain
   now redirecting to Miro.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/invision/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -28,7 +28,7 @@ apis:
       spacing) and icons from their DSM design system. API keys were scoped per
       design system and used as query parameters. The platform was shut down on
       January 1, 2025.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://support.invisionapp.com/docs/dsm-developer-tools
     baseURL: https://projects.invisionapp.com/dsm-export
     tags:
