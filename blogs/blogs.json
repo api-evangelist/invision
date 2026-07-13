@@ -16,11 +16,13 @@
   "repo": "invision",
   "feeds": [
     {
-      "source": "https://engineering.invisionapp.com",
+      "source": "https://www.linkedin.com/company/invisionapp",
+      "feed_url": "https://www.linkedin.com/company/invisionapp",
+      "title": "",
       "saved": 0,
-      "error": "DNS ENOTFOUND - domain does not resolve (InVision shut down)"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T12:48:41Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
