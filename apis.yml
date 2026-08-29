@@ -7,6 +7,17 @@ description: >-
   components including design tokens and icons via the Design System Manager
   (DSM). InVision shut down all services on January 1, 2025, with its domain
   now redirecting to Miro.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
