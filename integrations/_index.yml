@@ -76,3 +76,31 @@
       - Meetings
   status: not-a-workflow
   arazzo: null
+- slug: invision-battery-ventures
+  label: Battery Ventures
+  partner: battery-ventures
+  partner_name: Battery Ventures
+  category: vc portfolio participation
+  type: register
+  channel: standard-directory
+  evidence: https://www.battery.com/company/invision/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Battery Ventures companies (battery.com/company/, the page's own admin-ajax list + company pages)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: InVision
+    register_id: https://www.battery.com/company/invision/
+    register_country: New York, New York
+    register_website: http://www.invisionapp.com/
+    matched_domain: invisionapp.com
+    matched_by: domain+name-among-holders
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+    status: Exited
+  status: not-a-workflow
+  arazzo: null
